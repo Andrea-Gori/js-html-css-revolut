@@ -64,27 +64,30 @@ ul li svg {
   margin-right: 10px;
 }
 
-.dropdown-menu {
+.width-dropdown-menu {
   margin: 0 15px;
-
+ 
 }
 
-.menu-1 {
-  width: 800px;
+.dropdown-menu {
   position: absolute;
-  top: 90px;
-  right: 65px;
+  top: 50px;
+  left: -25px;
   display: flex;
-  justify-content: space-around;
   box-shadow: 0px 6px 16px #CED5DB;;
   border-radius: 10px;
+  padding: 13px 13px;
 }
 
-.menu-1 ul li {
+.none {
+  display: none !important;
+}
+
+.dropdown-menu ul li {
   padding: 8px 0;
 }
 
-.c-soon {
+.relative {
   position: relative;
 }
 
@@ -94,4 +97,21 @@ ul li svg {
   right: -13px;
   font-size: 10px;
   color: #77acf4;
+}
+
+.sub-title {
+  color: #ced5db;
+}
+
+.w-150 {
+  width: 180px;
+}
+
+.width-dropdown-menu::after {
+  content: '';
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  left: 0;
 }
