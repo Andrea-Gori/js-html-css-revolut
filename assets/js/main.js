@@ -2,7 +2,7 @@
     appari();
     scompari();
     big();
-
+    bula();
 
 })
 
@@ -31,5 +31,13 @@ function big() {
   })
 }
 
-
+function bula() {
+  var click = $('.container .nav-left a')
+  
+  click.click(function () {
+    var boh = $('active')
+    $('.active').removeClass('active')
+    $(this).addClass('active')
+  })
+}
 

@@ -15,7 +15,11 @@
 
 a {
   text-decoration: none;
-  color: #8e9091 ;
+  color: #8b959e ;
+}
+
+a:hover {
+  color: #000;
 }
 
 /* nav left */
@@ -74,7 +78,7 @@ ul li svg {
   top: 50px;
   left: -25px;
   display: flex;
-  box-shadow: 0px 6px 16px #CED5DB;;
+  box-shadow: 0px 6px 16px #CED5DB;
   border-radius: 10px;
   padding: 13px 13px;
 }
@@ -99,6 +103,10 @@ ul li svg {
   color: #77acf4;
 }
 
+.c-soon{
+  color: #dcdcdd;
+}
+
 .sub-title {
   color: #ced5db;
 }
@@ -114,4 +122,8 @@ ul li svg {
   position: absolute;
   top: 20px;
   left: 0;
+}
+
+.nav-left a.active {
+  color: #000;
 }
